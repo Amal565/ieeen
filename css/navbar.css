@@ -46,6 +46,7 @@
     border: none;
     padding: 0.25rem;
     justify-content: space-between;
+    margin-left: auto;
 }
 
 .navbar-toggler:focus {
@@ -56,6 +57,8 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'%3E%3Cpath stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h16M4 18h16' /%3E%3C/svg%3E");
     width: 24px;
     height: 24px;
+    align-items: center;
+    display: flex
 }
 
 .navbar-collapse {
@@ -65,6 +68,7 @@
 .navbar-nav {
     margin-left: auto;
     align-items: center;
+    display: flex;
     
 }
 
